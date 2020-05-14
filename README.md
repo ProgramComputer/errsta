@@ -12,7 +12,7 @@
  <li>-r regex </li>
  <li>-u username</li>
 <ul>
-
+</html>
 The original purpose is to restart Linksys router when 500 Internal Server Error appears. 
 Entry is any text needed to complete the action.
 response.txt of the html will be created at the directory where command was initiated
@@ -20,7 +20,7 @@ response.txt of the html will be created at the directory where command was init
 
 ======
 ###Use
-
+<html>
 To use the command simply clone to a directory then run 
 PATH/errsta.sh <args>
 
