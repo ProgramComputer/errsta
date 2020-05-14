@@ -29,11 +29,11 @@ PATH/errsta.sh <args>
 
 The default values are
 <ul>
-<li>Password admin</li>
-<li>Ip address 192.168.1.1</li>
-<li>action reboot.tri</li>
-<li>Entry</li>
-<li>regex ([^0-9]|^)500([^0-9]|$)</li>
+<li>Password - admin</li>
+<li>Ip address - 192.168.1.1</li>
+<li>action - reboot.tri</li>
+<li>Entry -  </li>
+<li>regex -([^0-9]|^)500([^0-9]|$)</li>
     </ul>
 
 </html>
