@@ -4,14 +4,15 @@
 <p> <b><em>errsta</em></b>[-i] [-p] [-a] [-e] [-r] [-u]</p>
     
 </body>
-</html>
--i IP address
--p password
--a action name
--e entry
--r regex 
--u username
+<ul>
+    <li>-i IP address</li>
+ <li>-p password</li>
+ <li>-a action name</li>
+ <li>-e entry</li>
+ <li>-r regex </li>
+ <li>-u username</li>
+<ul>
 
 The original purpose is to restart Linksys router when 500 Internal Server Error appears. 
 Entry is any text needed to complete the action.
-
+</html>
