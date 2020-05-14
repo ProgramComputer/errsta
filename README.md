@@ -15,4 +15,5 @@
 
 The original purpose is to restart Linksys router when 500 Internal Server Error appears. 
 Entry is any text needed to complete the action.
+response.txt of the html will be created at the directory where command was initiated
 </html>
