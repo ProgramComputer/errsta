@@ -19,7 +19,8 @@ response.txt of the html will be created at the directory where command was init
 
 
 ======
-###Use
+
+### Use
 <html>
 To use the command simply clone to a directory then run 
 PATH/errsta.sh <args>
