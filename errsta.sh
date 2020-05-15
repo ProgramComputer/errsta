@@ -81,7 +81,7 @@ while true;
 do
 RESPONSE=response.txt
 
-status="$(curl -s -w %{http_code} -u $u:${PASS} 192.168.1.1 -o $RESPONSE)"
+status="$(curl -f -s -w %{http_code} -u $u:${PASS} 192.168.1.1 -o $RESPONSE)"
 if [ $status = "401" ] || [ $status == '500' ]; 
 then
  curl -f -u $u:$PASS -d "$ENTRY" $IP/$ACTION
@@ -98,6 +98,7 @@ then
        echo
        break 
    fi
+   sleep 1
 done
 
 
